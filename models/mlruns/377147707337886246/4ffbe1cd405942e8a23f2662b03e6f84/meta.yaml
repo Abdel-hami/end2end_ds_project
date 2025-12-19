@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/user/Desktop/end2end_ds_project/notebooks/../models/mlruns/377147707337886246/4ffbe1cd405942e8a23f2662b03e6f84/artifacts
+end_time: 1766153345965
+entry_point_name: ''
+experiment_id: '377147707337886246'
+lifecycle_stage: active
+run_id: 4ffbe1cd405942e8a23f2662b03e6f84
+run_name: 'Baseline model: Logistic Regression '
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766153345874
+status: 4
+tags: []
+user_id: user
