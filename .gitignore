@@ -1,5 +1,3 @@
-# Data
-/data/
 
 # Mac OS-specific storage files
 .DS_Store
@@ -190,10 +188,14 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 ########
-models/
-models
-data/
-node_modules
+models/*
+!models/.gitkeep
+data/*
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
 node_modules/
 package-lock.json
 package.json
