@@ -1,4 +1,37 @@
-# end2end_ds_project
+# Job Recommendation System – Stack Overflow Survey
+
+## Overview
+This project is a **data-driven job–technology recommendation system** built using the Stack Overflow Developer Survey.  
+The goal is to help users understand the relationship between **IT roles and required technologies** based on real-world data.
+
+The project covers the full workflow from data processing and model training to experiment tracking and API deployment.
+
+---
+
+## Data
+- Source: Stack Overflow Developer Survey
+- Data is processed and transformed to analyze relationships between job roles and technical skills
+- Raw datasets are not included in the repository
+
+---
+
+## Approach
+- Data cleaning and preprocessing using Python
+- Feature engineering to represent job–skill relationships
+- Trained and benchmarked multiple machine learning models
+- Tracked experiments, parameters, and metrics using **MLflow**
+- Selected the best-performing model for inference
+
+---
+
+## API
+A **FastAPI** application is used to expose the trained model as a REST API:
+- Input: job role or technology-related features
+- Output: recommended job roles or relevant technologies
+
+The API is intended for **learning and demonstration purposes**.
+
+---
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -39,7 +72,7 @@ an end to end data science project (tack overflow developers survey)
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── end2end_ds_project   <- Source code for use in this project.
+└── scripts   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes end2end_ds_project a Python module
     │
